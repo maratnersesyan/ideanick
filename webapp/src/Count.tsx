@@ -1,5 +1,10 @@
 const Count = () => {
-  return <h1>Marat Nersesyan</h1>
+  const name = "Marat"
+  return (
+    <div>
+      My name {name}
+    </div>
+  )
 }
 
 export default Count
