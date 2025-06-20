@@ -1,7 +1,13 @@
 import Button from "./Button";
+import Count from "./Count"
 
 function App() {
-  return <Button />;
+  return(
+    <>
+      <Count />
+      <Button />
+    </>
+  ) ;
 }
 
 export default App;
